@@ -1,0 +1,17 @@
+# SmartWound - dependencies
+# STEP 1 hanya butuh streamlit + pillow.
+# numpy & opencv sudah dicantumkan karena dipakai mulai STEP 3-6.
+
+streamlit==1.38.0
+pillow==10.4.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+
+# Dipakai mulai STEP 8 (dataset simulasi) dan STEP 10 (model kalibrasi)
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+matplotlib==3.9.2
+
+# Testing (STEP 14)
+pytest==8.3.2
